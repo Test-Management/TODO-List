@@ -1,0 +1,103 @@
+{
+  "suites": [
+    {
+      "id": 2,
+      "title": "TODO functions",
+      "description": null,
+      "preconditions": null,
+      "suites": [],
+      "cases": [
+        {
+          "id": 3,
+          "title": "Add TODO",
+          "description": "Add a TODO using the input field at the top.",
+          "preconditions": "Write the TODO in the input field at the top and press \"Add\".",
+          "postconditions": "The TODO should appear in the in the list below.",
+          "priority": "undefined",
+          "severity": "normal",
+          "behavior": "undefined",
+          "type": "functional",
+          "layer": "e2e",
+          "is_flaky": "no",
+          "automation": "is-not-automated",
+          "status": "actual",
+          "milestone": null,
+          "custom_fields": [],
+          "steps": []
+        },
+        {
+          "id": 4,
+          "title": "Check TODO",
+          "description": "Clicking a TODO should cross it out.",
+          "preconditions": "There is a TODO item in the list.",
+          "postconditions": "Clicking it makes the item become crossed out and moves it to the other crossed out items.",
+          "priority": "undefined",
+          "severity": "normal",
+          "behavior": "undefined",
+          "type": "functional",
+          "layer": "e2e",
+          "is_flaky": "no",
+          "automation": "is-not-automated",
+          "status": "actual",
+          "milestone": null,
+          "custom_fields": [],
+          "steps": []
+        },
+        {
+          "id": 5,
+          "title": "Uncheck TODO",
+          "description": "Clicking a crossed out TODO uncrosses it.",
+          "preconditions": "There is a TODO item in the list that is crossed out.",
+          "postconditions": "Clicking it uncrosses the item and moves it to the other uncrossed items.",
+          "priority": "undefined",
+          "severity": "normal",
+          "behavior": "undefined",
+          "type": "functional",
+          "layer": "e2e",
+          "is_flaky": "no",
+          "automation": "is-not-automated",
+          "status": "actual",
+          "milestone": null,
+          "custom_fields": [],
+          "steps": []
+        },
+        {
+          "id": 6,
+          "title": "Delete TODO",
+          "description": "Deleting a TODO removes it from the item list.",
+          "preconditions": "There is a TODO, crossed out or not, in the list.",
+          "postconditions": "Clicking the respective delete button removes it from the list.",
+          "priority": "undefined",
+          "severity": "normal",
+          "behavior": "undefined",
+          "type": "functional",
+          "layer": "e2e",
+          "is_flaky": "no",
+          "automation": "is-not-automated",
+          "status": "actual",
+          "milestone": null,
+          "custom_fields": [],
+          "steps": []
+        },
+        {
+          "id": 7,
+          "title": "Checked TODOs are moved to the bottom",
+          "description": "All crossed out/checked TODOs have to be moved to the bottom of the list.",
+          "preconditions": "There are multiple TODOs in the list.",
+          "postconditions": "When they are crossed out, they should be moved to the bottom portion of the list.",
+          "priority": "undefined",
+          "severity": "normal",
+          "behavior": "undefined",
+          "type": "functional",
+          "layer": "e2e",
+          "is_flaky": "no",
+          "automation": "is-not-automated",
+          "status": "actual",
+          "milestone": null,
+          "custom_fields": [],
+          "steps": []
+        }
+      ]
+    }
+  ]
+}
